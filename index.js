@@ -28,7 +28,7 @@ request.onload = function () {
 
             const button = document.createElement('button');
             button.textContent = contri.github_username;
-            document.addEventListener("click", function() {
+            button.addEventListener("click", function() {
                 window.open(contri.github_url);
             });
 
