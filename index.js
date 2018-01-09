@@ -17,11 +17,11 @@ request.onload = function () {
             const card = document.createElement('card');
             card.setAttribute('class', 'card');
 
-            const h1 = document.createElement('h1');
-            h1.textContent = contri.name;
+            const name = document.createElement('h1');
+            name.textContent = contri.name;
 
-            const p = document.createElement('p');
-            p.textContent = contri.description;
+            const bio = document.createElement('p');
+            bio.textContent = contri.bio;
 
             const quote = document.createElement('blockquote');
             quote.textContent = contri.quote;
@@ -33,8 +33,8 @@ request.onload = function () {
             });
 
             container.appendChild(card);
-            card.appendChild(h1);
-            card.appendChild(p);
+            card.appendChild(name);
+            card.appendChild(bio);
             card.appendChild(quote);
             card.appendChild(button);
         });
