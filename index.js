@@ -2,13 +2,16 @@ const app = document.getElementById('root');
 
 const container = document.createElement('div');
 container.setAttribute('class', 'container');
-
 app.appendChild(container);
 
+const main_title = document.createElement('h1');
+main_title.textContent = "Contributors Index";
+main_title.setAttribute = ('id', 'main-title');
+main_title.setAttribute = ('class', 'hvr-underline-from-center');
+container.appendChild(main_title);
+
 var request = new XMLHttpRequest();
-
 request.open('GET', 'api.json', true);
-
 request.onload = function () {
     var data = JSON.parse(this.response);
 
@@ -46,6 +49,6 @@ request.onload = function () {
     } else {
         console.log("Bad Request");
     }
-}
+};
 
 request.send();

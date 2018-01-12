@@ -5,32 +5,26 @@ body {
     padding: 10px;
     text-align: center;
 }
-#main-title {
+body h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-}
-.h1, h1 {
-    font-size: 1rem;
-}
-.h1, h1, p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-size: 30px;
     text-align: center;
 }
-#credits {
-    font-weight: normal;
+body p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
-#main-title, #credits {
-    margin: 10px;
-    text-align: center;
+body h1 #main-title {
+    margin: 20px;
+    font-size: 40px;
 }
-a {
+body a {
     font-family: 'Roboto Mono', monospace;
     color: #0077b5;
     padding: 5px;
-    text-align: center;
     text-decoration: none;
 }
-a:hover {
+body a:hover {
     text-decoration: none;
 }
