@@ -1,6 +1,6 @@
 # simple-api
 
-## at v0.0.2
+## at v0.0.3
 
 To add a new entry, simply follow this syntax inside [ ]:
 
@@ -8,7 +8,6 @@ To add a new entry, simply follow this syntax inside [ ]:
 {
     "name": "YOUR-FULLNAME",
     "bio": "YOUR-BIO",
-    "quote": "YOUR-FAVOURITE-QUOTATION",
     "github_url": [
         "https://github.com/YOUR-GITHUB-USERNAME/"
     ],

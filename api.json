@@ -1,8 +1,7 @@
 [
     {
         "name": "Sambhav Jain",
-        "bio": "blah blah blah",
-        "quote": "blah blah",
+        "bio": "GitHubber",
         "github_url": [
             "https://github.com/sambhav2612/"
         ],
@@ -10,8 +9,7 @@
     },
     {
         "name": "Anmol Wassan",
-        "bio": "blah blah blah",
-        "quote": "blah blah",
+        "bio": "Wikipedian",
         "github_url": [
             "https://github.com/coderwassananmol/"
         ],
@@ -20,7 +18,6 @@
     {
     "name": "Mansi Jain",
     "bio": "Open-Source Enthusiast",
-    "quote": "Live young. Live free.",
     "github_url": [
         "https://github.com/mansijain16/"
     ],

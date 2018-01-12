@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+.card {
+    padding: 10px;
+    text-align: center;
+}
+#main-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.h1, h1 {
+    font-size: 1rem;
+}
+.h1, h1, p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+#credits {
+    font-weight: normal;
+}
+#main-title, #credits {
+    margin: 10px;
+    text-align: center;
+}
+a {
+    font-family: 'Roboto Mono', monospace;
+    color: #0077b5;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
