@@ -6,11 +6,11 @@ To add a new entry, simply follow this syntax inside [ ]:
 
 ```json
 {
-    "name": "YOUR-FULLNAME",
-    "bio": "YOUR-BIO",
+    "name": "ADITYA PATHAK",
+    "bio": "PROGRAMMER",
     "github_url": [
-        "https://github.com/YOUR-GITHUB-USERNAME/"
+        "https://github.com/paditya99/"
     ],
-    "github_username": "YOUR-GITHUB-USERNAME"
+    "github_username": "paditya99"
 }
 ```
